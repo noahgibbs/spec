@@ -8,7 +8,7 @@ install:
 build: off
 test_script:
   - SET CHECK_LEAKS=true
-  - ../mspec/bin/mspec -fs library/readline
+  - ../mspec/bin/mspec -fa library/readline
 branches:
   only:
     - master
